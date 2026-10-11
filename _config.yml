@@ -22,7 +22,7 @@ baidu_site_verification  :
 # Site Author
 author:
   name             : "Matt Zhang"
-  avatar           : "images/ldx.png"
+  avatar           :
   bio              : "Matt Zhang"
   location         :
   employer         :
