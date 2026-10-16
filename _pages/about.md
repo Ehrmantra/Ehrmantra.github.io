@@ -8,11 +8,28 @@ redirect_from:
   - /about.html
 ---
 
+{% if site.google_scholar_stats_use_cdn %}
+{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
+{% else %}
+{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
+{% endif %}
+{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
+
 <span class='anchor' id='about-me'></span>
 {% include_relative includes/intro.md %}
+
+{% include_relative includes/demos.md %}
+
+{% include_relative includes/news.md %}
+
+{% include_relative includes/pub.md %}
+
+{% include_relative includes/honors.md %}
 
 {% comment %}{% include_relative includes/edu.md %}{% endcomment %}
 
 {% comment %}{% include_relative includes/intern.md %}{% endcomment %}
 
-{% include_relative includes/demos.md %}
+<div style="width: 25%; max-width: 300px; margin: 0 auto;">
+  <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=EamYKRCwafbP_mEeiGyVN1iyt-dv3L3VWNvk13uxtgI"></script>
+</div>
