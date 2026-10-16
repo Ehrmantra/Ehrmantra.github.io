@@ -39,3 +39,27 @@ A humanoid robot runs through a sequence of household tasks — heating food in 
 </div>
 
 A dual-arm robot handling cardboard boxes on a tabletop. The upper panels are the two wrist cameras with live joint-state readouts; the lower panel is the full scene.
+
+### Contact-Rich Plug Insertion
+
+<div style="max-width: 340px; margin: 0 auto 1em;">
+  <video style="width: 100%; height: auto; display: block;" controls muted loop playsinline preload="metadata"
+         poster="{{ '/images/plug-insertion-poster.jpg' | relative_url }}">
+    <source src="{{ '/videos/plug-insertion.mp4' | relative_url }}" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+
+A two-finger gripper inserts a two-prong plug into a power strip — a contact-rich insertion task where the final approach needs force feedback.
+
+### Plug Insertion — Setup
+
+<div style="max-width: 340px; margin: 0 auto 1em;">
+  <video style="width: 100%; height: auto; display: block;" controls muted loop playsinline preload="metadata"
+         poster="{{ '/images/plug-insertion-setup-poster.jpg' | relative_url }}">
+    <source src="{{ '/videos/plug-insertion-setup.mp4' | relative_url }}" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+
+The same setup seen from the side: the gripper and tool are adjusted by hand next to the power strip before the run.

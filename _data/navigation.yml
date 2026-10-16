@@ -6,6 +6,9 @@ main:
   - title: "Demo Videos"
     url: "/#demos"
 
+  - title: "Data Pipeline"
+    url: "/#data-pipeline"
+
   - title: "News"
     url: "/#-news"
 
