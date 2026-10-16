@@ -26,7 +26,6 @@ author:
   location         : "Beijing, China"
   employer         :
   pubmed           : 
-  googlescholar    :
   email            : "zhangrui@bupt.edu.cn"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -42,8 +41,6 @@ author:
   instagram        :
   impactstory      : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
-  dblp             :
   orcid            : 
   pinterest        :
   soundcloud       :
