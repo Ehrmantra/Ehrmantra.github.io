@@ -3,37 +3,32 @@
 # This config file is meant for settings that affect your entire site, values
 # which you are expected to set up once and rarely need to edit after that.
 # For technical reasons, this file is *NOT* reloaded automatically when you use
-# jekyll serve. If you change this file, please restart the server process.
-
+# `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Matt Zhang"
-description              : "Vision-language-action models and real-robot reinforcement learning."
-repository               : "Ehrmantra/Ehrmantra.github.io"
+title                    : "Dongxiu Liu"
+description              : ""
+repository               : "Dstate/Dstate.github.io"
 google_scholar_stats_use_cdn : true
-
 
 # google analytics
 google_analytics_id      :
-
-
 # SEO Related
-google_site_verification :
-bing_site_verification   :
-baidu_site_verification  :
-
+google_site_verification :  # get google_site_verification from https://search.google.com/search-console/about
+bing_site_verification   :  # get bing_site_verification from https://www.bing.com/webmasters/about
+baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.baidu.com/login/index?u=/site/index
 
 # Site Author
 author:
-  name             : "Matt Zhang"
-  avatar           : "images/matt-zhang.jpg"
-  bio              : "M.S. Student in AI, BUPT"
+  name             : "Dongxiu Liu"
+  avatar           : "images/ldx.png"
+  bio              : "刘东岫"
   location         : "Beijing, China"
   employer         :
-  pubmed           :
-  googlescholar    :
-  email            : "zhangrui@bupt.edu.cn"
-  researchgate     :
+  pubmed           : 
+  googlescholar    : "https://scholar.google.com/citations?user=QbZB7QUAAAAJ"
+  email            : "liudongxiu0504@gmail.com"
+  researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
   codepen          :
@@ -41,21 +36,21 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "Ehrmantra"
+  github           : "Dstate"
   google_plus      :
   keybase          :
   instagram        :
-  impactstory      :
+  impactstory      : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
-  dblp             :
-  orcid            :
+  linkedin         : "dongxiu-liu-1563b3395"
+  dblp             : "https://dblp.org/pid/397/7496.html"
+  orcid            : 
   pinterest        :
   soundcloud       :
-  stackoverflow    :
+  stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          :
+  twitter          : 
   vine             :
   weibo            :
   xing             :
@@ -121,8 +116,47 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
-
 # Defaults
 defaults:
+  # _pages
   - scope:
       path: ""
+      type: pages
+    values:
+      layout: default
+      author_profile: true
+
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+
+
+# Outputting
+permalink: /:categories/:title/
+timezone: Asia/Shanghai # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-redirect-from
+# mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+
+
+# HTML Compression
+# - http://jch.penibelst.de/
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
