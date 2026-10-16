@@ -8,7 +8,7 @@
 
 # Site Settings
 title                    : "Matt Zhang"
-description              : "Personal homepage of Matt Zhang — vision-language-action models and real-robot reinforcement learning for robotic manipulation."
+description              : "Vision-language-action models and real-robot reinforcement learning."
 repository               : "Ehrmantra/Ehrmantra.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -27,7 +27,7 @@ baidu_site_verification  :
 author:
   name             : "Matt Zhang"
   avatar           : "images/matt-zhang.jpg"
-  bio              : "M.S. Student in AI, BUPT · VLA & Robot Learning"
+  bio              : "M.S. Student in AI, BUPT"
   location         : "Beijing, China"
   employer         :
   pubmed           :
