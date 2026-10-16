@@ -27,3 +27,15 @@ A dual-arm robot performs a tabletop pick-and-place: the cup is picked up and pl
 </div>
 
 A humanoid robot runs through a sequence of household tasks — heating food in a microwave, kitchen cleanup, and table service.
+
+### Dual-Arm Box Manipulation (3 min)
+
+<div style="max-width: 640px; margin: 0 auto 1em;">
+  <video style="width: 100%; height: auto; display: block;" controls muted loop playsinline preload="metadata"
+         poster="{{ '/images/dual-arm-box-manipulation-poster.jpg' | relative_url }}">
+    <source src="{{ '/videos/dual-arm-box-manipulation.mp4' | relative_url }}" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+
+A dual-arm robot handling cardboard boxes on a tabletop. The upper panels are the two wrist cameras with live joint-state readouts; the lower panel is the full scene.
