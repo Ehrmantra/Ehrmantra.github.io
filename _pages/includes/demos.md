@@ -44,8 +44,8 @@ A dual-arm robot handling cardboard boxes on a tabletop. The upper panels are th
 
 <div style="max-width: 340px; margin: 0 auto 1em;">
   <video style="width: 100%; height: auto; display: block;" controls muted loop playsinline preload="metadata"
-         poster="{{ '/images/plug-insertion-poster.jpg' | relative_url }}">
-    <source src="{{ '/videos/plug-insertion.mp4' | relative_url }}" type="video/mp4">
+         poster="{{ '/images/plug-insertion-hd-poster.jpg' | relative_url }}">
+    <source src="{{ '/videos/plug-insertion-hd.mp4' | relative_url }}" type="video/mp4">
     Your browser does not support the video tag.
   </video>
 </div>
