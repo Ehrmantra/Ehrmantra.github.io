@@ -44,17 +44,17 @@ A dual-arm robot handling cardboard boxes on a tabletop. The upper panels are th
 
 <div style="display: flex; flex-wrap: wrap; align-items: flex-start; gap: 1.4em; justify-content: center; margin: 0 auto 1em;">
   <div style="flex: 1 1 300px; max-width: 340px;">
-    <video style="width: 100%; height: auto; display: block;" controls muted loop playsinline preload="metadata"
-           poster="{{ '/images/plug-insertion-hd-poster.jpg' | relative_url }}">
-      <source src="{{ '/videos/plug-insertion-hd.mp4' | relative_url }}" type="video/mp4">
+    <video style="width: 100%; height: auto; aspect-ratio: 3 / 4; object-fit: cover; display: block;" controls muted loop playsinline preload="metadata"
+           poster="{{ '/images/plug-insertion-poster.jpg' | relative_url }}">
+      <source src="{{ '/videos/plug-insertion.mp4' | relative_url }}" type="video/mp4">
       Your browser does not support the video tag.
     </video>
     <p style="font-size: 0.9em; line-height: 1.45; margin: 0.6em 0 0;">Contact-rich insertion: a two-finger gripper plugs a two-prong plug into a power strip, where the final approach needs force feedback.</p>
   </div>
   <div style="flex: 1 1 300px; max-width: 340px;">
-    <video style="width: 100%; height: auto; display: block;" controls muted loop playsinline preload="metadata"
-           poster="{{ '/images/plug-insertion-setup-poster.jpg' | relative_url }}">
-      <source src="{{ '/videos/plug-insertion-setup.mp4' | relative_url }}" type="video/mp4">
+    <video style="width: 100%; height: auto; aspect-ratio: 3 / 4; object-fit: cover; display: block;" controls muted loop playsinline preload="metadata"
+           poster="{{ '/images/admittance-control-poster.jpg' | relative_url }}">
+      <source src="{{ '/videos/admittance-control.mp4' | relative_url }}" type="video/mp4">
       Your browser does not support the video tag.
     </video>
     <p style="font-size: 0.9em; line-height: 1.45; margin: 0.6em 0 0;">Admittance control: the arm yields to forces applied by hand during the task setup.</p>
