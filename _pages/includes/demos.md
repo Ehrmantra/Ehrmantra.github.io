@@ -6,16 +6,20 @@
 
 <div class="work-grid">
   <article class="work-card work-card-wide">
-    <div class="work-card-copy">
-      <p class="eyebrow">01 · GigaAI · long-horizon VLA</p>
+    <div class="work-card-head">
+      <p class="eyebrow">01 · GigaAI (WRC) · long-horizon VLA</p>
       <h3>Stage-aware household manipulation</h3>
       <p class="work-result">94% success in a 100-test microwave evaluation, up from 78% for the baseline.</p>
-      <p>I modeled subtask transitions from history, injected the predicted stage into action generation with FiLM, and used a GRU state machine with hysteresis and monotonic decoding. The policy updates at 30 Hz, so a long task can switch stages without waiting for a slow high-level planner.</p>
     </div>
-    <video controls muted loop playsinline preload="metadata" poster="{{ '/images/home-tasks-full-flow-60s-poster.jpg' | relative_url }}" aria-label="Long-horizon household task demonstration">
-      <source src="{{ '/videos/home-tasks-full-flow-60s.mp4' | relative_url }}" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
+    <div class="work-card-body">
+      <div class="work-card-text">
+        <p>I modeled subtask transitions from history, injected the predicted stage into action generation with FiLM, and used a GRU state machine with hysteresis and monotonic decoding. The policy updates at 30 Hz, so a long task can switch stages without waiting for a slow high-level planner.</p>
+      </div>
+      <video controls muted loop playsinline preload="metadata" poster="{{ '/images/home-tasks-full-flow-60s-poster.jpg' | relative_url }}" aria-label="Long-horizon household task demonstration">
+        <source src="{{ '/videos/home-tasks-full-flow-60s.mp4' | relative_url }}" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
   </article>
 
   <article class="work-card">
@@ -41,21 +45,25 @@
   </article>
 
   <article class="work-card work-card-wide">
-    <div class="work-card-copy">
+    <div class="work-card-head">
       <p class="eyebrow">04 · Real-robot RL · force-aware assembly</p>
       <h3>Contact-rich plug insertion</h3>
       <p class="work-result">95.8% closed-loop success, with a 7.3 percentage-point gain after the policy-variance fix.</p>
-      <p>I built a force encoder that predicts contact before impact and suppresses force noise in free space. I also replaced pointwise BC regression with a distribution-consistency constraint, preventing the Gaussian policy variance from collapsing and preserving exploration.</p>
     </div>
-    <div class="video-pair">
-      <video controls muted loop playsinline preload="metadata" poster="{{ '/images/plug-insertion-poster.jpg' | relative_url }}" aria-label="Plug insertion demonstration">
-        <source src="{{ '/videos/plug-insertion.mp4' | relative_url }}" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-      <video controls muted loop playsinline preload="metadata" poster="{{ '/images/admittance-control-poster.jpg' | relative_url }}" aria-label="Admittance control demonstration">
-        <source src="{{ '/videos/admittance-control.mp4' | relative_url }}" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
+    <div class="work-card-body">
+      <div class="work-card-text">
+        <p>I built a force encoder that predicts contact before impact and suppresses force noise in free space. I also replaced pointwise BC regression with a distribution-consistency constraint, preventing the Gaussian policy variance from collapsing and preserving exploration.</p>
+      </div>
+      <div class="video-pair">
+        <video controls muted loop playsinline preload="metadata" poster="{{ '/images/plug-insertion-poster.jpg' | relative_url }}" aria-label="Plug insertion demonstration">
+          <source src="{{ '/videos/plug-insertion.mp4' | relative_url }}" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <video controls muted loop playsinline preload="metadata" poster="{{ '/images/admittance-control-poster.jpg' | relative_url }}" aria-label="Admittance control demonstration">
+          <source src="{{ '/videos/admittance-control.mp4' | relative_url }}" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
     </div>
   </article>
 </div>
