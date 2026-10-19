@@ -7,7 +7,7 @@
 <div class="work-grid">
   <article class="work-card work-card-wide">
     <div class="work-card-head">
-      <p class="eyebrow">01 · GigaAI (WRC) · long-horizon VLA</p>
+      <p class="eyebrow">01 · GigaAI · long-horizon VLA · WRC</p>
       <h3>Stage-aware household manipulation</h3>
       <p class="work-result">94% success in a 100-test microwave evaluation, up from 78% for the baseline.</p>
     </div>

@@ -254,6 +254,11 @@ h1:before, .anchor:before {
     grid-column: 1 / -1;
 }
 
+.work-card-head > h3,
+.work-card-head > .work-result {
+    text-align: center;
+}
+
 .work-card-body {
     display: grid;
     grid-template-columns: minmax(0, 1.05fr) minmax(280px, .95fr);
