@@ -1,12 +1,22 @@
-# 🎖 Honors and Awards
-- *2025.10* 🏅 **Champion** at AGIBOT World Challenge (Manipulation Track) @ IROS 2025.
-- *2023.06* **Outstanding** Graduate of Beijing.
-- *2021.09* **Overall Top 0.1%** at CCF Certified Software Professional (CSP).
-- *2021.05* 🏅 **Gold Medal** at International Collegiate Programming Contest Asia Regional Contest (ICPC).
-- *2021.04* **Finalist** at International Mathematical Contest in Modeling (MCM).
+# Education & milestones
 
-{% comment %}
-- *2021.04* **Individual Gold Medal** at China Collegiate Computing Contest (CCCC).
-- *2020.11* 🥈 **Silver Medal** at China Collegiate Programming Contest (CCPC).
-- *2020.10* 🥈 **Silver Medal** at Collegiate Computer Systems and Programming Contest (CCSP).
-{% endcomment %}
+<div class="education-grid">
+  <article>
+    <p class="eyebrow">2024.09 – 2027.07</p>
+    <h3>Beijing University of Posts and Telecommunications</h3>
+    <p>M.S. in Artificial Intelligence · GPA 3.82 / 5.0</p>
+    <span>Embodied intelligence · reinforcement learning</span>
+  </article>
+  <article>
+    <p class="eyebrow">2020.09 – 2024.07</p>
+    <h3>Southwestern University of Finance and Economics</h3>
+    <p>B.Eng. in Artificial Intelligence · GPA 3.7 / 5.0</p>
+    <span>Machine learning · deep learning</span>
+  </article>
+</div>
+
+<div class="milestone-row">
+  <span>Open-source contribution merged to StarVLA</span>
+  <span>Mentored two interns on real-robot policy training</span>
+  <span>Available for 2027 full-time roles in embodied AI</span>
+</div>

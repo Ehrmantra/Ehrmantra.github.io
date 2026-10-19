@@ -6,9 +6,9 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Matt Zhang"
-description              : ""
-repository               : "Dstate/Dstate.github.io"
+title                    : "Matt Zhang · VLA Manipulation"
+description              : "VLA Manipulation · Online RL"
+repository               : "Ehrmantra/Ehrmantra.github.io"
 google_scholar_stats_use_cdn : true
 
 # google analytics
@@ -22,9 +22,9 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Matt Zhang"
   avatar           : "images/matt-zhang.jpg"
-  bio              : "张锐"
+  bio              : "VLA Manipulation · Real-Robot RL"
   location         : "Beijing, China"
-  employer         :
+  employer         : "GigaAI · Embodied AI"
   pubmed           : 
   email            : "zhangrui@bupt.edu.cn"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"

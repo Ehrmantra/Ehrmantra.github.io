@@ -1,9 +1,18 @@
-# 🔥 News
-- *2026.09*: &nbsp;🎉🎉 [ODEWorld](https://dstate.github.io/odeworld_website/) has been accepted by NeurIPS 2026!
-- *2026.09*: &nbsp;🎉🎉 [X-Tokenizer](https://arxiv.org/abs/2606.14752) has been accepted by CoRL 2026!
-- *2026.05*: &nbsp;🎉🎉 An [Empirical Study](https://arxiv.org/abs/2602.23408) on action space design has been accepted by ICML 2026 and won the 🏆 Best Paper Award at the ES-Reasoning Workshop @ ICLR 2026!
-- *2026.01*: &nbsp;🎉🎉 [X-VLA](https://thu-air-dream.github.io/X-VLA/) has been accepted by ICLR 2026!
-- *2025.12*: &nbsp;🎉🎉 [UAGLNet](https://arxiv.org/abs/2512.12941) has been accepted by IEEE TGRS!
-- *2025.10*: &nbsp;🎉🎉 [X-VLA](https://thu-air-dream.github.io/X-VLA/) won the 🏆 Championship at AgiBot World Challenge @ IROS 2025!
-- *2025.05*: &nbsp;🎉🎉 [LBP](https://lbp-authors.github.io/) has been accepted by ICML 2025!
-- *2025.02*: &nbsp;🎉🎉 [UniAct](https://2toinf.github.io/UniAct/) has been accepted by CVPR 2025!
+# Experience
+
+<div class="timeline">
+  <article class="timeline-item">
+    <div class="timeline-meta">Current</div>
+    <div>
+      <h3>Research intern · GigaAI</h3>
+      <p>Embodied foundation models and VLA post-training. I work across subtask segmentation, stage-aware long-horizon modeling, data robustness, asynchronous execution, and downstream household-task deployment.</p>
+    </div>
+  </article>
+  <article class="timeline-item">
+    <div class="timeline-meta">2026.02 – 2026.06</div>
+    <div>
+      <h3>RL algorithm intern · Contact-rich assembly</h3>
+      <p>Real-robot reinforcement learning for contact-rich assembly and fine manipulation. I owned the force encoder, the BC-collapse diagnosis, and the closed-loop evaluation protocol, and mentored two interns.</p>
+    </div>
+  </article>
+</div>

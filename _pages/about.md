@@ -20,18 +20,12 @@ redirect_from:
 
 {% include_relative includes/demos.md %}
 
-{% include_relative includes/tooling.md %}
-
 {% include_relative includes/news.md %}
+
+{% include_relative includes/approach.md %}
+
+{% include_relative includes/tooling.md %}
 
 {% include_relative includes/pub.md %}
 
 {% include_relative includes/honors.md %}
-
-{% comment %}{% include_relative includes/edu.md %}{% endcomment %}
-
-{% comment %}{% include_relative includes/intern.md %}{% endcomment %}
-
-<div style="width: 25%; max-width: 300px; margin: 0 auto;">
-  <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=EamYKRCwafbP_mEeiGyVN1iyt-dv3L3VWNvk13uxtgI"></script>
-</div>

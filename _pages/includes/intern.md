@@ -1,5 +1,3 @@
-# 💻 Research Experience
-- *Current*, Co-founder, **Basal Intelligence**.
-- *2026.01 - 2026.06*, Research intern, [X Square Robot](https://x2robot.com/).
-- *From 2024.09*, Former long-term research intern, [AIR-DREAM Lab](https://air-dream.netlify.app/), Institute for AI Industry Research (AIR), Tsinghua University. Worked closely with [Prof. Xianyuan Zhan](http://zhanxianyuan.xyz/).
-- *2021.06 - 2021.12*, Research intern, [SenseTime Research](https://www.sensetime.com/).
+# Experience
+- *Current*, Research intern, **GigaAI（极佳视界）**. Embodied foundation models and VLA post-training.
+- *2026.02 – 2026.06*, RL algorithm intern, **日冕机器人**. Real-robot reinforcement learning for contact-rich assembly and fine manipulation.
